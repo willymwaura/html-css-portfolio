@@ -1,0 +1,70 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing:border-box;
+}
+span{
+	color: red;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.hero{
+	color: white;
+	top: 0%;
+	font-size: 21px;
+}
+nav ul li{
+	display: inline-block;
+	padding: 10px 30px;
+}
+nav ul li a{
+	color: white;
+}
+nav ul li a:hover{
+	color: red;
+	transition: .10s;
+}
+.details{
+	position: absolute;
+	top: 30%;
+	left: 20%;
+}
+h1{
+	font-weight: 900;
+	font-size: 60px;
+	color: white;
+	margin: 20px 2px 21px;
+}
+h2{
+	font-size: 50px;
+	color: white;
+}
+h3{
+	color: white;
+	font-size: 30px;
+}
+.info{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	color: white;
+	font-size: 30px;
+}
+.about{
+	top: 20%;
+	left: 20%;
+    margin: 0%;
+}
+.skill{
+	position: absolute;
+	top: 10%;
+	left: 30%;
+	font-size: 25px;
+	color: white;
+	margin-bottom: 20px;
+}
